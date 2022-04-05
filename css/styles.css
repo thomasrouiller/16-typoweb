@@ -14,4 +14,19 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
+  margin: 0px 27px;
+}
+
+h1, h2 {
+  font-family: 'helvetica';
+  font-weight: 200;
+  font-size: 28px;
+}
+
+.loveinc-logo {
+  width: 200px;
+}
+
+.heading-logo-display {
+  display: flex;
 }
