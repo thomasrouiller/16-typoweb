@@ -23,6 +23,10 @@ img {
   margin: 0px 27px;
 }
 
+.gif {
+  margin: 0px;
+}
+
 h1, h2 {
   font-family: 'helvetica';
   font-weight: 200;
