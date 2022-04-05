@@ -29,6 +29,11 @@ h1, h2 {
   font-size: 28px;
 }
 
+h1 {
+  padding-left: 30px;
+  border-bottom: 1.5px solid black;
+}
+
 .loveinc-logo {
   width: 200px;
 }
@@ -37,8 +42,34 @@ h1, h2 {
   display: flex;
 }
 
-.defiling {
+.defiling-container {
   background-color: var(--secondary-display-color);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+.txt {
+  font-family: 'Norsy';
+  font-size: 21px;
+  font-weight: 100;
+  white-space: nowrap;
+  animation: scrollTxt1 7.5s linear infinite;
+}
+
+.bold {
+  font-family: 'Norsy';
+  font-weight: 900;
+}
+
+@keyframes scrollTxt1 {
+  0%{
+    transform: translate(0, 0);
+  }
+  100%{
+    transform: translate(-100%, 0);
+  }
 }
 
 .heading-card {
