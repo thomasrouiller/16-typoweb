@@ -123,6 +123,15 @@ h1 {
   font-weight: thin;
 }
 
+.store-link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.store-link:hover {
+  color: #a9a5ff;
+}
+
 h2 {
   text-transform: uppercase;
 }
