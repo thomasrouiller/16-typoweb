@@ -119,6 +119,10 @@ h1 {
   font-weight: thin;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 textarea {
   font-family: 'Norsy';
   border: none;
