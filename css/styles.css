@@ -5,3 +5,13 @@
   --secondary-display-color: #ff6c27;
   --heading-color: #727272;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
+}
