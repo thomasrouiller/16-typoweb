@@ -4,6 +4,8 @@
   --main-display-color: #a9a5ff;
   --secondary-display-color: #ff6c27;
   --heading-color: #727272;
+  --main-padding: 55px 0px;
+
 }
 
 html {
@@ -14,6 +16,10 @@ body {
   max-width: 380px;
   margin: auto;
   text-align: center;
+  background-color: var(--secondary-color);
+}
+
+img {
   margin: 0px 27px;
 }
 
@@ -29,4 +35,23 @@ h1, h2 {
 
 .heading-logo-display {
   display: flex;
+}
+
+.defiling {
+  background-color: var(--secondary-display-color);
+}
+
+.heading-card {
+  background-color: var(--main-color);
+  padding: 32px 0px;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
 }
