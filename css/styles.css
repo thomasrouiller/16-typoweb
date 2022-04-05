@@ -30,12 +30,13 @@ h1, h2 {
 }
 
 h1 {
-  padding-left: 30px;
+  padding-left: 52px;
   border-bottom: 1.5px solid black;
 }
 
 .loveinc-logo {
   width: 200px;
+  margin-right: 10px;
 }
 
 .heading-logo-display {
@@ -85,4 +86,35 @@ h1 {
 
 .button {
   text-decoration: none;
+  padding: 10px 0;
+  font-size: 40px;
+}
+
+.button-light {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.button-dark {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+.button1 {
+  font-family: 'Norsy';
+  font-weight: light;
+}
+
+.button2 {
+  font-family: 'Norsy UltraCondensed';
+}
+
+.button3 {
+  font-family: 'Norsy Condensed';
+  font-weight: bold;
+}
+
+.button4 {
+  font-family: 'Norsy Condensed';
+  font-weight: thin;
 }
