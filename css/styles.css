@@ -197,6 +197,11 @@ h2 {
   text-align: left;
 }
 
+.typographic-logo img {
+  width: 100px;
+  margin: 100px;
+}
+
 .typographic-logo {
   font-family: 'Norsy UltraCondensed';
   font-weight: regular;
@@ -204,13 +209,11 @@ h2 {
   color: var(--main-color);
   background-color: var(--secondary-display-color);
   width: 153px;
-  height: 153px;
+  height: 100px;
+  padding: 29px 0px;
+  margin: 0;
 }
 
-.typographic-logo img{
-  width: 100px;
-  height: 100px;
-}
 
 h4 {
   font-family: 'Helvetica';
