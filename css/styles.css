@@ -168,7 +168,7 @@ h2 {
 }
 
 .overview-card {
-  background-color: rgb(131, 48, 48);
+  background-color: rgb(70, 66, 66);
 }
 
 .logo-container {
@@ -207,10 +207,26 @@ h2 {
   height: 153px;
 }
 
-.typographic-logo p {
-  margin: auto;
-  /* padding: 20px;
-  margin: 40px; */
+.typographic-logo img{
+  width: 100px;
+  height: 100px;
+}
+
+h4 {
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 24px;
+  color: var(--main-display-color);
+  width: 100%; 
+  text-align: left; 
+  border-bottom: 1px solid #a9a5ff; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+h4 span { 
+  background:var(--main-color); 
+  padding:0 10px; 
 }
 
 textarea {
