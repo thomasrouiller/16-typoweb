@@ -168,7 +168,49 @@ h2 {
 }
 
 .overview-card {
-  background-color: red;
+  background-color: rgb(131, 48, 48);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 55px 0px 40px 0px;
+}
+
+.quote-card {
+  font-family: 'Norsy';
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 30px;
+  color: var(--secondary-display-color);
+  background-color: blue;
+  border: solid #ff6c27 2px;
+  width: 153px;
+  height: 153px;
+}
+
+.quote-card p {
+  margin: auto;
+  margin: 16px 0px 0px 20px;
+  text-align: left;
+}
+
+.typographic-logo {
+  font-family: 'Norsy UltraCondensed';
+  font-weight: regular;
+  font-size: 170px;
+  color: var(--main-color);
+  background-color: var(--secondary-display-color);
+  width: 153px;
+  height: 153px;
+}
+
+.typographic-logo p {
+  margin: auto;
+  /* padding: 20px;
+  margin: 40px; */
 }
 
 textarea {
