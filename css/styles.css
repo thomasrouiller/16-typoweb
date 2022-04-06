@@ -3,6 +3,7 @@
   --secondary-color: #ffffff;
   --main-display-color: #a9a5ff;
   --secondary-display-color: #ff6c27;
+  --third-display-color: #b7a299;
   --heading-color: #727272;
   --main-padding: 55px 0px;
 
@@ -294,9 +295,23 @@ h4 span {
   padding:0 10px; 
 }
 
-textarea {
+.img-container {
+  background-color: var(--third-display-color);
+}
+
+.color-card {
+  margin: 55px 27px;
+}
+
+.gif-container {
+  background-color: var(--main-color);
+  padding-bottom: 20px;
+}
+
+.font-tester {
   max-width: 375px;
   font-family: 'Norsy';
+  font-size: 40px;
   border: none;
   width: 300px;
   height: 40px;
