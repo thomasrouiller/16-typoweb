@@ -125,7 +125,7 @@ h1 {
 
 .store-link {
   color: var(--main-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .store-link:hover {
@@ -134,6 +134,41 @@ h1 {
 
 h2 {
   text-transform: uppercase;
+  background-color: var(--heading-color);
+  margin: 0;
+  padding: 13px 0px;
+}
+
+.introduction-card {
+  background-color: var(--main-display-color);
+  margin: 0px;
+  padding: var(--main-padding);
+  text-align: left;
+}
+
+.introduction-card h3 {
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 31px;
+  line-height: 28px;
+  margin: 0px 27px 30px 27px;
+}
+
+.introduction-card span {
+  font-family: 'Norsy';
+  font-weight: normal;
+}
+
+.introduction-card p {
+  margin: 0px 27px 14px 27px;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.overview-card {
+  background-color: red;
 }
 
 textarea {
