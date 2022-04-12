@@ -322,6 +322,19 @@ h4 span {
 .font-family-nav {
   background-color: var(--main-color);
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0px;
+}
+
+.font-family-nav a {
+  color: var(--secondary-color);
+  margin: 3px 26px;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 36px;
+  text-decoration: none;
 }
 
 textarea {
