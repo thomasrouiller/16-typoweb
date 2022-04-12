@@ -328,7 +328,6 @@ h6 {
   padding-right: 10px;
   margin-right: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
   width: 325px;
 }
 
@@ -343,6 +342,7 @@ h6 span {
 
 .tester-container-dark {
   background-color: var(--main-color);
+  padding-bottom: 10px;
 }
 
 .img-container {
@@ -430,16 +430,35 @@ input {
 
 .condensced1 {
   font-family: 'Norsy Condensed';
+  font-weight: 100;
 }
 
-.condensced2 {}
+.condensced2 {
+  font-family: 'Norsy Condensed Extra';
+  font-weight: 200;
+}
 
-.condensced3 {}
+.condensced3 {
+  font-family: 'Norsy Condensed';
+  font-weight: 300;
+}
 
-.condensced4 {}
+.condensced4 {
+  font-family: 'Norsy Condensed';
+  font-weight: normal;
+}
 
-.condensced5 {}
+.condensced5 {
+  font-family: 'Norsy Condensed';
+  font-weight: 500;
+}
 
-.condensced6 {}
+.condensced6 {
+  font-family: 'Norsy Condensed';
+  font-weight: 600;
+}
 
-.condensced7 {}
+.condensced7 {
+  font-family: 'Norsy Condensed';
+  font-weight: 700;
+}
