@@ -488,3 +488,11 @@ input {
 footer {
   background-color: green;
 }
+
+.footer-title {
+  background-color: red;
+  font-family: 'Norsy';
+  font-weight: 700;
+  font-size: 109px;
+  line-height: 0.8;
+}
