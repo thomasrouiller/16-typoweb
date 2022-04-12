@@ -484,3 +484,7 @@ input {
   font-family: 'Norsy Condensed';
   font-weight: 700;
 }
+
+footer {
+  background-color: green;
+}
