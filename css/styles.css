@@ -304,15 +304,45 @@ h5 {
   text-align: left; 
   border-bottom: 1px solid #000000; 
   line-height: 0.1em;
-  margin: 20px 0 20px; 
-  padding-right: 27px;
-  margin-right: 27px;
+  margin: 20px 17px 10px; 
+  padding-right: 10px;
+  margin-right: 50px;
   width: 325px;
 }
 
 h5 span { 
   background:var(--secondary-color); 
   padding:0 10px; 
+}
+
+h6 {
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 15px;
+  color: var(--secondary-color);
+  width: 100%; 
+  text-align: left; 
+  border-bottom: 1px solid #ffffff; 
+  line-height: 0.1em;
+  margin: 20px 17px 10px; 
+  padding-right: 10px;
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 325px;
+}
+
+h6 span { 
+  background:var(--main-color); 
+  padding:0 10px; 
+}
+
+.tester-container-light {
+  background-color: var(--secondary-color);
+}
+
+.tester-container-dark {
+  background-color: var(--main-color);
 }
 
 .img-container {
@@ -378,3 +408,38 @@ input {
 
   resize: none;
 }
+
+.font-tester-dark {
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+}
+
+.font-tester-dark input:focus {
+  color: var(--secondary-color);
+}
+
+.font-tester-light {
+  background-color: var(--secondary-color);
+  color: var(--main-color);
+}
+
+.font-tester-light input:focus {
+  color: var(--secondary-color);
+}
+
+.condensced1 {
+  font-family: 'Norsy Condensed';
+}
+
+.condensced2 {}
+
+.condensced3 {}
+
+.condensced4 {}
+
+.condensced5 {}
+
+.condensced6 {}
+
+.condensced7 {}
