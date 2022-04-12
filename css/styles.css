@@ -295,6 +295,26 @@ h4 span {
   padding:0 10px; 
 }
 
+h5 {
+  font-family: 'Helvetica';
+  font-weight: 100;
+  font-size: 15px;
+  color: var(--main-color);
+  width: 100%; 
+  text-align: left; 
+  border-bottom: 1px solid #000000; 
+  line-height: 0.1em;
+  margin: 20px 0 20px; 
+  padding-right: 27px;
+  margin-right: 27px;
+  width: 325px;
+}
+
+h5 span { 
+  background:var(--secondary-color); 
+  padding:0 10px; 
+}
+
 .img-container {
   background-color: var(--third-display-color);
 }
@@ -337,12 +357,12 @@ h4 span {
   text-decoration: none;
 }
 
-textarea {
+input {
   max-width: 375px;
   font-family: 'Norsy';
   font-size: 40px;
-  border: none;
-  width: 300px;
+  line-height: 5px;
+  width: 320px;
   height: 40px;
   padding: 10px;
   resize: none;
