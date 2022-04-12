@@ -194,16 +194,21 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   text-transform: uppercase;
-  background-color: var(--heading-color);
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 35px;
   padding: 13px 0px;
+}
+
+.title-dark {
+  color: var(--secondary-color);
 }
 
 .introduction-card {
   background-color: var(--main-display-color);
   margin: 0px;
-  padding: var(--main-padding);
+  padding: 20px 0px 55px 0px;
   text-align: left;
 }
 
@@ -230,6 +235,11 @@ h2 {
 
 .overview-card {
   background-color: var(--main-color);
+  padding: 40px 0px 20px 0px;
+}
+
+.overview-card h2 {
+  padding: 0px;
 }
 
 .logo-container {
@@ -237,7 +247,7 @@ h2 {
   flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
-  padding: 55px 0px 40px 0px;
+  padding: 20px 0px 40px 0px;
 }
 
 .quote-card {
@@ -345,8 +355,15 @@ h6 span {
   padding-bottom: 10px;
 }
 
+.img-container h2 {
+  padding: 40px 0px 0px 0px;
+  margin: 0px;
+}
+
 .img-container {
   background-color: var(--third-display-color);
+  padding: 0px;
+  margin: 0px;
 }
 
 .color-card {
