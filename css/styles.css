@@ -34,8 +34,8 @@ img {
 }
 
 h1, h2 {
-  font-family: 'helvetica';
-  font-weight: 200;
+  font-family: 'Helvetica';
+  font-weight: 100;
   font-size: 28px;
 }
 
@@ -495,4 +495,21 @@ footer {
   font-weight: 700;
   font-size: 109px;
   line-height: 0.8;
+}
+
+.logo-container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.sizing1 {
+
+}
+
+.sizing2 {
+
+}
+
+.sizing3 {
+  
 }
