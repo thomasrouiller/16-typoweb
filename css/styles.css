@@ -486,20 +486,36 @@ input {
 }
 
 footer {
-  background-color: green;
+  background-color: var(--main-color);
 }
 
 .footer-title {
-  background-color: red;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   font-family: 'Norsy';
   font-weight: 700;
   font-size: 109px;
   line-height: 0.8;
+  margin: 20px 0px 0px 0px;
+  padding-top: 20px;
+}
+
+.footer-p {
+  color: var(--secondary-color);
+  font-family: 'Helvetica';
+  font-weight: 100;
+  text-align: left;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 0;
+  margin-top: -15px;
+  margin-left: -10px;
+  white-space: pre;
 }
 
 .logo-container2 {
   display: flex;
-  flex-direction: row;
+  background-color: red;
 }
 
 .sizing1 {
