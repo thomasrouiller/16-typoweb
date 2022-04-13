@@ -75,7 +75,7 @@ h1 {
   width: 100%;
 }
 
-.txt {
+.defiling-text {
   font-family: 'Norsy';
   font-size: 21px;
   font-weight: 100;
@@ -83,7 +83,7 @@ h1 {
   animation: scrollTxt1 7.5s linear infinite;
 }
 
-.txt2 {
+.defiling-text-variant {
   color: var(--main-display-color);
   font-family: 'Norsy';
   font-size: 200px;
@@ -95,7 +95,7 @@ h1 {
   line-height: 0.8;
 }
 
-.txt3 {
+.defiling-text-reverse {
   color: var(--main-display-color);
   font-family: 'Norsy Condensed';
   font-size: 150px;
@@ -112,7 +112,7 @@ h1 {
   font-weight: 900;
 }
 
-.txt4 {
+.defiling-text-slower {
   color: var(--main-display-color);
   font-family: 'Norsy UltraCondensed';
   font-size: 200px;
@@ -547,4 +547,14 @@ footer {
 
 .sizing3 {
   width: 165px;
+}
+
+.anim1 {
+  animation: test 5s infinite;
+}
+
+@keyframes test {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
 }
