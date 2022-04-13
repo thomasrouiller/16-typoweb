@@ -515,17 +515,36 @@ footer {
 
 .logo-container2 {
   display: flex;
-  background-color: red;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.logo-container-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 0;
+  padding-left: 70px;
+}
+
+.logo-container-inner img {
+  margin-right: 10px;
+}
+
+.logo-container-inner2 img{
+  margin-left: 0px;
 }
 
 .sizing1 {
-
+  width: 37px;
 }
 
 .sizing2 {
-
+  width: 75px;
 }
 
 .sizing3 {
-  
+  width: 165px;
 }
