@@ -549,12 +549,17 @@ footer {
   width: 165px;
 }
 
-.anim1 {
-  animation: test 5s infinite;
+/* .anim1 {
+  padding: 50px;
+  animation: test 3s infinite;
+  animation-timing-function: steps(3, end);
 }
 
 @keyframes test {
-  0% { color: red; }
-  50% { color: blue; }
-  100% { color: red; }
-}
+  0% { color: red; 
+        background-color: grey; }
+  50% { color: blue; 
+    background-color: green;}
+  100% { color: red; 
+  background-color: aqua;}
+} */
